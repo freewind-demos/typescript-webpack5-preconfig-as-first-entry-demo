@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "demo": "webpack-dev-server --open"
+    "demo": "webpack && cat ./dist/bundle.js"
   },
   "dependencies": {
     "jquery": "3.6.0"
